@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+    position: relative;    
+    padding-bottom: 400px;
+    min-height: 100vh;
+    background-color: rgb(31, 31, 31);
+    overflow-x:hidden;
+}
+.flakistrony{
+  padding: 30px 20px;
+    height: auto;
+    background: rgb(53,53,53,0.8);
+    width:100%;
+top:10px;
+    position: relative;
+
+}
+  .cnaiimg{
+    position: relative;
+    margin:5px;
+    text-decoration: none;
+    color: aliceblue;
+        width: 250px;
+      }
+.naviimg{
+  margin:10px;
+  border-radius: 2%;
+}
+.naviimg:hover{
+  width: 270px;
+  height: 270px;
+  filter: drop-shadow(0 0 3px rgb(255, 255, 255));
+  padding: 7px;
+  transition: all 0.4s;
+}
+.hnapis:hover{
+  color: rgb(125, 122, 170);
+  transition: all 0.4s;
+}
+.gura{
+  background: rgb(143,0,255);
+  background: linear-gradient(149deg, rgba(143,0,255,1) 0%, rgba(255,0,204,1) 100%);
+  width: 100%;
+  height: 75px;
+}
+.obrazek{
+top:5px;
+position: relative;
+float: right;
+right: 5%;
+}
+#logo{
+height: 65px;
+}
+
+.stopa{
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background-color: rgb(53,53,53);
+
+padding: 20px;
+position: absolute;
+bottom: 0px;
+width: 100%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgb(255,0,204);
+  background: linear-gradient(16deg, rgba(255,0,204,1) 0%, rgba(158,0,249,1) 100%);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: all 0.2s;
+}
+
+.sidenav a:hover {
+  color: #ffffff;
+  transition: all 0.6s;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+hr{
+  height:2px;
+  border-width:0;
+  color:rgb(0, 0, 0);
+  background-color:rgb(0, 0, 0);
+}
+.fs {
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: 2rem;
+  transition: all 0.2s;
+  margin: 0.4rem;
+}
+
+.fs:hover {
+  color: #2d62a3;
+  filter: drop-shadow(1px 5px 20px #2d62a3);
+  transform: scale(1.1);
+}
+.fr {
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: 2rem;
+  transition: all 0.2s;
+  margin: 0.4rem;
+}
+
+.fr:hover {
+  color: 	#FF5700;
+  filter: drop-shadow(1px 5px 20px 	#FF4500);
+  transform: scale(1.1);
+}
+.ft {
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: 2rem;
+  transition: all 0.2s;
+  margin: 0.4rem;
+}
+
+.ft:hover {
+  color: 	#1DA1F2;
+  filter: drop-shadow(1px 5px 20px 	#1DA1F2);
+  transform: scale(1.1);
+}
+.ft {
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: 2rem;
+  transition: all 0.2s;
+  margin: 0.4rem;
+}
+
+.ft:hover {
+  color: 	#1DA1F2;
+  filter: drop-shadow(1px 5px 20px 	#1DA1F2);
+  transform: scale(1.1);
+}
+.fi {
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: 2rem;
+  transition: all 0.2s;
+  margin: 0.4rem;
+}
+
+.fi:hover {
+  color:#FD1D1D;
+  filter: drop-shadow(1px 5px 20px 	#FD1D1D);
+  transform: scale(1.1);
+}
+.fd {
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: 2rem;
+  transition: all 0.2s;
+  margin: 0.4rem;
+  position: relative;
+float: right;
+right: 8%;
+top:6px;
+}
+
+.fd:hover {
+  color:#5865F2;
+  filter: drop-shadow(1px 5px 20px 	#5865F2);
+  transform: scale(1.1);
+}
+#odstep{
+  margin:7px;
+}
+.menuod{
+  display: inline-block;
+  position: relative;
+  
+}
+.menuod:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(249,249,249);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.menuod:hover:after { 
+  width: 100%; 
+  left: 0; 
+  -webkit-box-shadow: 1px -18px 57px 8px rgba(255,255,255,1);
+  -moz-box-shadow: 1px -18px 57px 8px rgba(255,255,255,1);
+  box-shadow: 1px -18px 57px 8px rgba(255,255,255,1);
+  
+}
